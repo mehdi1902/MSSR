@@ -13,13 +13,18 @@
 \usepackage{titlesec}											% Change chapter and section titles
 \usepackage{setspace}											% Change line spacing
 \usepackage[stable,bottom]{footmisc}					% Move footnotes to the bottom of page
-
+\usepackage{hyperref}
 \usepackage{zref-perpage}
 \zmakeperpage[1]{footnote}
 
 \usepackage{xepersian}										% Persian
 \settextfont{XB Zar}												% Persian font
 
+
+\hypersetup{
+    colorlinks=false,
+    pdfborder={0 0 0},
+}
 
 % Use English digits in equations
 \DefaultMathsDigits
